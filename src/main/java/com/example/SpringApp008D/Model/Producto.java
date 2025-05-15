@@ -13,14 +13,14 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 
 @Entity
-public class Product {
+public class Producto {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id;
-    private String name;
-    private String description;
-    private double price;
-    private int stock;
+    private int id_producto;
+    private String nombre;
+    private String marca;
+    private int precio;
+    private int id_familia;
 
 }
